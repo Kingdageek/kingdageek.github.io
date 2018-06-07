@@ -42,7 +42,7 @@ hr {
 #action {
   margin-top:10.1rem;  
 }
-.inner .subscribe {
+.clear > .subscribe {
   border-radius: 300px;
   background-color:#cc391f;
   color: #fff;
