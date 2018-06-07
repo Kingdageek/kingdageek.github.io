@@ -54,7 +54,7 @@ hr {
   font-weight: 700;
 }
 
-#action>.subscribe:hover {
+.clear>.subscribe:hover {
   background-color: #db5600;
   border: 5px #db5600 solid;
 }
