@@ -1,0 +1,27 @@
+$color: tomato;
+$txtcolor: #fff;
+body{
+    margin:0;
+    background: url(background.jpg);
+    background-size: cover;
+}
+div {
+    margin: auto;
+    width: 80%;
+    h1 {
+        text-transform: uppercase;
+        font-family: fantasy, Georgia, 'Times New Roman', Times, serif;
+        color: $txtcolor;
+    }
+    button {
+        border-radius: 20px;
+        background-color: $color;
+        color: $txtcolor;
+        border: 0;
+        padding: 15px 30px;
+        text-transform: uppercase;
+        &:hover {
+            background-color: #db5600;
+        }
+    }
+}
